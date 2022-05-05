@@ -3,46 +3,64 @@ html, body {
   width: 100%;
 }
 
+/* floral background image */
 body {
   background-image: url(images/floral-background.jpg)
 }
 
+/* text for my name at top of page */
 header h1 {
   text-align: Center;
   font-family: Pacifico;
   font-size: 44px;
-  letter-spacing: 8px;
+  letter-spacing: 15px;
   line-height: 5px;
   margin-top: -10px;
   padding-top: 40px;
   
 }
 
+/* smaller title words */
 h2 {
   text-align: Center;
   font-family: Pacifico;
 }
 
+/* software developer at top of page */
 h3 {
   text-align: Center;
   font-family: Pacifico;
   letter-spacing: 5px;
 }
 
+/* all main content */
 p, ul, ol {
   font-family: Arial;
   font-size: 16px;
 }
 
+/* links */
+a {
+  font-family: Arial;
+  font-size: 16px;
+}
+a:link    { color: white;  }
+a:visited { color: sandybrown;   }
+a:hover   { color: seagreen; }
+a:active  { color: pink;  }
+
+/* footer for copywrite info at bottom */
 footer {
   background-color: #FFF3F0;
   font-size: 12px;
   font-family: Arial;
   margin: auto;
+  padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+/* header at top of page */
 .wrapper1 {
   width: 200px;
   margin: auto;
@@ -50,6 +68,7 @@ footer {
   align: center;
 }
 
+/* boxes for main content  */
 .wrapper2 {
   width: 300;
   align: center;
@@ -63,6 +82,7 @@ footer {
   border: 3px solid #FFF3F0;
 }
 
+/* background of top header and bottom footer */
 .pink-background {
   background-color: #FFF3F0;
   height: 105px;
